@@ -1,13 +1,24 @@
 title:              2019NCOV
 description:        O koronawirusie 2019NCOV
-author:             Filiio
 baseurl:            "/"
 url:                "https://2019ncov.filiio.site"
 
 twitter_username:   princePhiliip
+author:
+  twitter: princePhiliip
+author: princePhiliip
 google_analytics:   UA-157024015-1
 
+social:
+  name: princePhiliip
+  links:
+    - https://twitter.com/princePhiliip
+    
+twitter:
+  username: princePhiliip
+  card: summary
 
+lang: pl
 
 jekyll-minifier:
   preserve_php: true                # Default: false
