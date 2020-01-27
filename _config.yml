@@ -18,7 +18,7 @@ twitter:
   username: princePhiliip
   card: summary
 
-lang: pl
+lang: pl_PL
 
 jekyll-minifier:
   preserve_php: true                # Default: false
