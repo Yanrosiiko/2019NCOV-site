@@ -1,24 +1,64 @@
-title:              Clean Blog
-email:              your-email@example.com
-description:        A Blog Theme by Start Bootstrap
-author:             Start Bootstrap
-baseurl:            "/startbootstrap-clean-blog-jekyll"
-url:                "https://blackrockdigital.github.io"
-
-# Social Profiles
-twitter_username:   SBootstrap
-github_username:    BlackrockDigital
-facebook_username:  StartBootstrap
-linkedin_username:
-
-# Add your google-analytics ID here to activate google analytics
-google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
-
-# Build settings
-markdown:           kramdown
-paginate:           5
-paginate_path:      "/posts/page:num/"
+---
+title: 2019NCOV
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+description: O koronawirusie 2019NCOV
+baseurl: "/"
+url: https://2019ncov.filiio.site
+twitter_username: princePhiliip
+author: princePhiliip
+google_analytics: UA-157024015-1
+social:
+  name: princePhiliip
+  links:
+  - https://twitter.com/princePhiliip
+twitter:
+  username: princePhiliip
+  card: summary
+lang: pl_PL
+jekyll-minifier:
+  preserve_php: true
+  remove_spaces_inside_tags: true
+  remove_multi_spaces: true
+  remove_comments: true
+  remove_intertag_spaces: true
+  remove_quotes: false
+  compress_css: true
+  compress_javascript: true
+  compress_json: true
+  simple_doctype: false
+  remove_script_attributes: false
+  remove_style_attributes: false
+  remove_link_attributes: false
+  remove_form_attributes: false
+  remove_input_attributes: false
+  remove_javascript_protocol: false
+  remove_http_protocol: false
+  remove_https_protocol: false
+  preserve_line_breaks: false
+  simple_boolean_attributes: false
+  compress_js_templates: false
+  preserve_patterns: 
+  uglifier_args: 
+tag_page_layout: tag_page
+tag_page_dir: tag
+tag_permalink_style: pretty
+markdown: kramdown
+paginate: 10
+paginate_path: "/posts/page:num/"
 plugins:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
+- jekyll-feed
+- jekyll-paginate
+- jekyll-sitemap
+- jekyll-twitter-plugin
+- jekyll-seo-tag
+- emoji_for_jekyll
+- jekyll-minifier
+- jekyll-tagging
+- jekyll-assets
