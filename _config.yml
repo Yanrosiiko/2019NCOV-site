@@ -34,6 +34,12 @@ jekyll-minifier:
   preserve_patterns:                # Default: (empty)
   uglifier_args:                    # Default: (empty)
   
+tag_page_layout: tag_page
+tag_page_dir: tag
+tag_feed_layout: tag_feed
+tag_feed_dir: tag
+tag_permalink_style: pretty
+  
 # Build settings
 markdown:           kramdown
 paginate:           10
@@ -46,5 +52,5 @@ plugins:
   - jekyll-seo-tag
   - emoji_for_jekyll
   - jekyll-minifier
-  
-  
+  - jekyll-tagging
+  - jekyll-assets
