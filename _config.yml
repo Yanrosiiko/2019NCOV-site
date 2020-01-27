@@ -1,8 +1,8 @@
 title:              2019NCOV
 description:        O koronawirusie 2019NCOV
 author:             Filiio
-baseurl:            "/startbootstrap-clean-blog-jekyll"
-url:                "https://blackrockdigital.github.io"
+baseurl:            "/"
+url:                "https://2019ncov.filiio.site"
 
 # Social Profiles
 twitter_username:   princePhiliip
